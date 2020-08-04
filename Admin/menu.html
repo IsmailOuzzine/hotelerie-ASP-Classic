@@ -1,0 +1,25 @@
+<div class="topnav" id="myTopnav">
+  <a href="Accueil.asp" class="active">Accueil</a>
+  <a href="form1Client.asp">Clients</a>
+  <a href="form1Hotel.asp">Hôtels</a>
+  <a href="form1Categorie.asp">Catégories</a>
+  <a href="form1Periode.asp">Périodes</a>
+  <a href="form1Tarif.asp">Tarifs</a>
+  <!--<a href="formulaireInsertChambre.asp">Chambres</a>-->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <span>&#9776;</span>
+  </a>
+</div>
+
+
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>

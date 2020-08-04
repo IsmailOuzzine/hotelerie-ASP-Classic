@@ -1,0 +1,27 @@
+<SCRIPT LANGUAGE="VBScript" RUNAT="Server">
+Sub Application_OnStart()   
+	Dim TabCol(1)
+	
+	TabCol(0) = "#004B8D"
+	TabCol(1) = "#91A8D0"
+	
+
+
+	Application("TabCol") = TabCol
+
+	'Application("PC") = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=D:\web\database\Messagerie.mdb;"
+	'Application("PC") = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=D:\web\database\Messagerie.mdb;"
+	'Application("PC") ="DRIVER={Microsoft Access Driver (*.mdb,*.accdb)};DBQ=D:\web\database\Messagerie.mdb;"  
+	'Application("PC") ="DRIVER={Microsoft Access Driver (*.mdb)};DBQ=D:\web\database\Messagerie.mdb;"  
+
+	'Application("PC")=Provider=SQLOLEDB;Data Source=yourServer;Initial Catalog=Messagerie;Trusted_Connection=yes;
+	'Application("PC")="Provider=MSDASQL;Server=localhost\SQLEXPRESS;Database=Messagerie ; UId=MSGI;PWD=MSGI;"
+	Application("PC")="Provider=sqloledb;Data Source=127.0.0.1;Initial Catalog=HOTELERIE;User Id=hotail;Password=hotail;"
+End Sub
+
+'Sub Session_OnStart() '
+'End Sub
+
+'Sub Session_OnEnd() 
+'End Sub
+</SCRIPT>

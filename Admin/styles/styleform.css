@@ -1,0 +1,80 @@
+*{
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+html
+  {height: 100%;}
+body
+{
+  background: url("../img/background.jpg") fixed;
+  /* background: url("img/background.jpg") fixed; */
+}
+.formPC, .DivHead, .DivData
+{
+  width: 800px;
+  margin: 0 auto;
+  border: 0px dashed red;
+}
+.formPC
+{
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 900px;
+  margin: 20px auto;
+  border-radius: 10px;
+  padding: 20px 0;
+  border: 1px solid  rgb(53, 53, 53);
+  box-shadow: 0 0 10px black;
+}
+.DivData
+{
+  height: 450px;
+  overflow-y:scroll;
+}
+.TabHead, .TabData
+{
+  margin: 0 auto;
+}
+.TabHead{
+  background-color:#5f5f5f;
+  color: black;
+  margin-right: 18px;
+}
+/*.TabData
+{}*/
+.TabData tr, .TabHead tr{height: 30px;}
+
+.TabHead tr td, .TabData tr td 
+{
+  padding:0 3px;
+  text-align: left;
+  overflow: hidden;
+}
+.TabHead tr td {text-align: center; color: #fff;}
+.TabData tr:nth-child(2n) 	{background:#fff; color:#000;}
+.TabData tr:nth-child(2n+1) {background:rgb(161, 161, 161); color:#000;}
+.TabHead, .TabData, .DivHead, .DivData {background:#5f5f5f;}
+#search, #search1, #search2, #Hotel
+{
+  width: 100%;
+  border-radius: 6px;
+  float: left;
+}
+.selectForm1{width:75%;}
+.BTL{float: left;}
+.BTR:hover, .BTL:hover{background-color: #aaa; border-style: solid;}
+/*.DivData::-webkit-scrollbar{width: 15px;}*/
+.Ajouter{
+  background-color: #333;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  width: 150px;
+  margin-top: 5px;
+}
+.Ajouter:hover{
+  background-color: #4CAF50;
+  color:white;
+}

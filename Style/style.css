@@ -1,0 +1,358 @@
+*{ padding-top: -50px;
+    padding: 0;
+    margin: 0; 
+     box-sizing: border-box;
+
+}
+body {
+  
+   
+
+    font-family: sans-serif; 
+
+
+  
+}
+.backgroundAA{
+  background-image: url("../img/bg4.jpg");
+  background-color: #cccccc;
+  height: 1000px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/*menu */
+.primary-navigation {
+
+position: relative;
+
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    font-size: 16px;}
+
+   a {
+      list-style: none;
+      margin: 0 auto;
+      border-left: 2px solid #3ca0e7;
+      display: inline-block;
+      padding: 0 30px;
+      position: relative;
+      text-decoration: none;
+      text-align: center;
+      font-family: arvo;
+      color: black;
+    }
+
+
+
+     a:hover {
+      color: #e8139b;
+    }
+.primary-navigation a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.primary-navigation .icon {
+  display: none;
+}
+    
+/*************/
+h1{
+  width:31%;
+color:#ffe6ff;
+border: width style color ;
+background-color: #004b8d;
+font-size: 20px;
+padding: 10px 1px;
+border-radius:20px;
+transition-duration:2000ms;
+}
+/* button */ 
+
+input[type=button] {
+ right: 100px ;
+    background-color: #f29400;
+    color: navy;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border-radius:20px;
+   font-weight:800;
+   
+  
+    
+}
+input[type=button]:hover {
+    background-color: #91a8d0;
+    color: #ffe6ff;
+    border: 1px solid #f29400;
+    font-weight:800;
+}
+input[type=submit] {
+ right: 100px ;
+    background-color: #f29400;
+    color: navy;
+    padding: 14px 20px;
+    margin: 5px 0;
+    border-radius:20px;
+   font-weight:800;
+   
+  
+    
+}
+input[type=submit]:hover {
+    background-color: #91a8d0;
+    color: #ffe6ff;
+    border: 1px solid #f29400;
+    font-weight:800;
+}
+}
+button[type=submit] {
+    background-color: #004b8d;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+button[type=submit]:hover {
+    background-color: white;
+    color: #262626;
+    border: 1px solid #262626;
+}
+button {
+
+    background-color: #004b8d;
+    color: #ffe6ff;
+    padding: 14px 20px;
+    margin: 7px 0;
+    border: none;
+    cursor: pointer;
+    width: 250px;
+    border-radius:20px;
+    font-size: 20px;
+}
+button:hover {
+    background-color: white;
+    color: #262626;
+    border: 1px solid #262626;
+}
+p{
+font-family: Times, "Times New Roman", Georgia, serif;
+}
+#formulaire {
+  background-color: #cadcf2;
+  margin: 0 auto;
+  width: 600px;
+  padding: 1em;
+  border: 11px solid #CCC;
+  border-radius: 1em;
+}
+.listClients{
+color:#ffe6ff;
+border: width style color ;
+background-color: #262626;
+font-size: 50px;
+padding: 10px 3px;
+border-radius:20px;
+transition-duration:2000ms;
+}
+.ReserverForm {
+background-color: #CCC ;
+  margin: 0 auto;
+  width: 1000px;
+  padding: 1em;
+  border: 11px solid #CCC;
+  border-radius: 1em;
+}
+input[type="checkbox"]
+{
+  outline:1px solid white;
+  vertical-align:middle;
+  width:20px;
+  height:20px;
+  -webkit-box-shadow:inset 0px 0px 0px 2px rgba(0,100,255,1);
+  -moz-box-shadow:inset 0px 0px 0px 2px rgba(0,100,255,1);
+  box-shadow:inset 0px 0px 0px 2px rgba(0,100,255,1);
+}
+.FormPC, .DivHead, .DivData
+{
+  width:900px;
+  margin:0px auto;
+  border:0px dashed #FFCC00;
+}
+
+.FormPC
+{
+  display:table;
+  padding-top:50px;
+  border:0px dashed yellow ;
+}
+
+.DivData
+{
+  height:450px; overflow:auto;
+}
+
+.TabHead, .TabData
+{
+  border="1";
+  font-family:Verdana;
+  font-size:1em;
+  margin:0px auto;
+}
+.DivHead
+{
+  border:2px solid white;
+  border-bottom:0px;
+}
+.TabHead
+{
+  font-weight:800;
+  color:black;
+  padding-right:16px;
+}
+.TabData
+{
+  font-weight:400;
+  cursor: pointer;
+}
+.TabHead tr , .TabData  tr {height:30px;}
+
+.TabHead tr td , .TabData tr td 
+{
+  border:0px solid navy;
+  padding-left:3px; 
+  padding-right:3px; 
+  text-align:center;
+}
+
+.TabData tr:nth-child(2n)   {background:#004B8D; color:#FFFFFF;}
+.TabData tr:nth-child(2n+1) {background:#91A8D0; color:#FFFFFF;}
+
+/*.TabHead, .TabData, .DivHead, .DivData {background:#FFFFFF;} */
+
+/* DIV > SCROLL BAR STYLE */
+
+.DivData::-webkit-scrollbar
+{
+  width:18px;
+  border-right:2px solid white;
+}
+.DivData::-webkit-scrollbar-thumb
+{
+  border-radius:15px;
+  background-color: #004B8D;
+  -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-image:-webkit-gradient(linear,left bottom,left top,color-stop(0.2, rgb(122,153,200)),color-stop(0.5, rgb(73,125,189)),color-stop(0.95, rgb(28,58,148)));
+}
+
+    
+
+label {
+  display: inline-block;
+  width: 150px;
+  
+}
+
+input, textarea {
+ 
+  font: 1.25em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+} 
+select, textarea {
+ 
+  font: 1.25em sans-serif;
+  width: 250px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+
+
+
+input.sexe{
+  width: 30px;
+}
+@media (max-width: 700px){
+    aside
+    {
+        top:100%;
+        left: 50%; /* On place la gauche de notre élément au mileu de la <section> */
+        margin-left: -127.5px; /* Et on décale notre élément de la moitié de sa largeur vers la gauche */
+    }
+    
+    article
+    {
+        margin-right: 0;
+        margin-bottom: 470px;
+        padding-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+  .primary-navigation {
+       text-align:  left ;
+ 
+  }
+  .primary-navigation a:not(:first-child) {display: none;}
+  .primary-navigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .primary-navigation.responsive {position: relative;}
+  .primary-navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .primary-navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .primary-navigation {
+       text-align:  left ;
+ 
+  }
+  .primary-navigation a:not(:first-child) {display: none;}
+  .primary-navigation a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .primary-navigation.responsive {position: relative;}
+  .primary-navigation.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .primary-navigation.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
+}
