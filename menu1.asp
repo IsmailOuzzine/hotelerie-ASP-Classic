@@ -101,6 +101,7 @@ table tr td {
      <a href="clientformulaire.asp">Inscription </a>
      <a href="nous.asp">Qui Somme nous  </a>
      <a href="dateperiode.asp">Les dates des Periodes </a>
+     <a href="contact.asp">Contact</a>
      <a href="javascript:void(0);" class="icon" onclick="myFunction()"> 
     <i class="fa fa-bars"></i> </a>
 

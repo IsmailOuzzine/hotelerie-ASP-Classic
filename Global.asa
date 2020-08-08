@@ -16,7 +16,7 @@ Sub Application_OnStart()
 
 	'Application("PC")=Provider=SQLOLEDB;Data Source=yourServer;Initial Catalog=Messagerie;Trusted_Connection=yes;
 	'Application("PC")="Provider=MSDASQL;Server=localhost\SQLEXPRESS;Database=Messagerie ; UId=MSGI;PWD=MSGI;"
-	Application("PC")="Provider=sqloledb;Data Source=127.0.0.1;Initial Catalog=HOTELERIE;User Id=hotail;Password=hotail;"
+	Application("PC")="Provider=sqloledb;Data Source=127.0.0.1;Initial Catalog=HOTELERIE;User Id=sa;Password=sa"
 End Sub
 
 'Sub Session_OnStart() '
